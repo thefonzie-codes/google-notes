@@ -153,3 +153,98 @@ Examples:
 - **Privacy**
 - **Data Quality, Bias and Fairness**
 - **Accountability and Explainability**
+
+## Layers of GenAI
+
+- Infrastructure
+- Agents
+- Platform
+- Models
+- AI Powered Application
+
+### Agents
+
+Agents allow you to personalize and specialize models for tasks
+
+Multiple agents, different specializations in one application. AKA Multi-agent system
+
+eg. **Travel Booking app**
+
+                           **AGENTS**
+
+Recommend flights and hotels ----
+                                  \
+                                   \
+Relevant activities ------------------- Info presented in interface
+                                   /
+                                  /
+Activities and attractions ------
+
+#### Types of Agents
+
+    - Conversational
+    - Workflow
+
+**Tools**
+
+- Tools allow AI to interact with the environment
+    - For example, automatically order new stock when store is low
+
+### Platform Layer
+
+- Provides the solution to build and scale AI initiatives
+
+#### Vertex AI
+
+- Infrastructure 
+- Pre-trained models
+- Tools
+- Easy Integration
+- Customization
+- Open and Flexible
+
+- ML Ops Tools
+    - End to end workflows
+    - Feature store
+    - Model Registry
+    - Model Evaluation
+    - Workflow Orchestration
+    - Model Monitoring
+
+- AI Model
+    - Brain of the operation
+    - **Vertex AI: Model Hub**
+        - Model Garden
+        - First-party foundation models
+        - First-party pre-trained API's
+        - Open models
+        - Third party models
+
+- Build Models with Vertex AI
+    - AutoML OR custom frameworks like PyTorch, TensorFlow, scikit-learn, or XGBoost
+    - AutoML
+        - Image Data
+        - Video Data
+        - Text Data
+        - Tabular Data
+
+<p style="color:green">
+**Gather Data -> Prepare -> Train -> Manage -> Deploy**
+<p>
+
+### Foundations of GenAI solutions
+    
+    - high performance computing
+    - GPU's and TPU's
+        - Built for parallel processing
+        - TPU's are specifically Google designed for AI
+    - Hypercomputer
+        - Connected individual computers (nodes)
+        - Connected as a single unit
+        - Have GPU's and TPU's to maximize parallel processing
+    - Large-scale storage
+        - High throughput, scalability and dense clusters
+    - Fast storage
+        - Quick read and write speeds for faster training
+    - Networking
+        - High bandwidth and low latency
