@@ -79,4 +79,77 @@
         - Training a model on sensor data from machines like temperature, pressure, vibration to detect failure before it happens.
     - **Anomaly Detection** with BigQuery ML (unsupervised learning)
 
-## Lifecycle
+- **Deep Learning** - subset of ML, differentiated by usage of artificial neural netoworks. Both labelled and unlabelled data - supervised learning.
+
+## Foundation Models
+
+- Complex Patterns
+- Variety of tasks across multiple domains
+
+Examples:
+
+- **LLMs**
+    - Designed to understand and generate human language
+- **Diffusion Models**
+    - Images, audio and video by refining noise or unsturcured/random data and patterns into structured data
+
+**Considerations when choosing a model**
+
+- Modality
+    - What kind of info is being processed, what you want as imput and output
+- Context
+    - Amount of info being processed/a model can remember/consider at one time
+- Security
+- Availability and reliability
+- Cost
+- Performance
+- Fine tuning and customization
+- Ease of integration
+
+## Google Cloud's ML Models
+
+- **Gemini**
+    - Multimodal - text, video, audtio
+- **Gemma**
+    - Lightweight, open models based on gemini tech
+- **Imagen**
+    - Text to image
+- **Gemini**
+    - Text/images to Video content
+
+## Limitations
+
+- Data Dependency
+- Date cutoff
+- Bias
+- Fairness
+- Hallucinations
+- Edge Cases
+
+**Overcoming limitations**
+    - Grounding - connecting to verifiable sources
+    - RAG
+    - Prompt engineering
+    - Fine tuning
+
+**Humans in the loop** (HITL)
+    - Content moderation
+        - Filtering harmful or appropriate material
+    - Sensitive applications
+        - Accuracy and risk mitigation in fields like finance or healthcare
+    - High-risk decision making
+        - Safeguard for decisions such as medical diagnoses or justice assessments
+    - Pre-generation review
+        - Review or validate outputs pre-deployment
+    - Post-generation review
+        - Review post-deployment
+
+## Security and Responsibility
+
+- Applying the SAIF - Safe AI Framework
+- Cloud Security tools
+
+- **Transparency**
+- **Privacy**
+- **Data Quality, Bias and Fairness**
+- **Accountability and Explainability**
