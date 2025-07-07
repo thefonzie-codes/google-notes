@@ -306,3 +306,19 @@ eg. **Travel Booking app**
         - Software updates and bug fixes
         - Hardware and infra
         - Security and compliance
+
+
+## Gemini for Google Workspace
+
+## Prompting techniques
+- **Using Examples**
+    - **Zero shot**
+        - No prior examples 
+    - **One shot**
+        - One example
+    - **Few shot**
+        - Multiple Example
+- **Role Prompting**
+    - Providing a personality/persona
+
+
