@@ -57,9 +57,26 @@
     - Raw, unprocessed info with no meaning, eg. Audio logs, text with no categorization
     - Algorithms built to discover the patterns as there are no labels. 
 
-## Other Concepts
+## Machine Learning
 
+- **Supervised Learning**:
+    - Trains on labeled data where input is paired with correct output
+    - Identify patterns and relationships with labeled data
+        - eg. Predicting housing prices
+- **Unsupervised Learning**:
+    - Raw, unlabeled data to find natural groupings.
+    - Targeted marketing or product recommendations. Think exploratory analysis.
 - **Reinforcement Learning**:
     - Learning through interaction and feedback
-    -
+    - Reward "good" behaviour and discourage "bad" behaviour.
+    - The algorithm maximizes rewards and minimizes penalties by interacting with the environment.
+    - Most useful when you can't provide explicit instructions or labeled data.
+        - Eg. Train self driving car to navigate trafffic situations
+    - Think trial and error
 
+    ### Some use cases
+    - **Predictive Maintenance** with VertexAI (Supervised Learning)
+        - Training a model on sensor data from machines like temperature, pressure, vibration to detect failure before it happens.
+    - **Anomaly Detection** with BigQuery ML (unsupervised learning)
+
+## Lifecycle
