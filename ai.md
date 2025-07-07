@@ -31,3 +31,34 @@
 
 - **Vertex AI**: create your own chatbots, didital assistands, training apps etc
 - **Gemini**: complex AI tasks
+
+## Data Quality Metrics
+
+- **Relevance**
+- **Completeness**
+- **Accuracy**
+- **Representation**
+- **Consistency**
+
+## Data Accessibility
+
+- Availability
+- Cost
+- Format
+
+## Data Types/Categorizations
+
+- Structured : Think Rows and Columns
+- Unstructured : Think documents/free form text, images, music.
+
+- Labeled
+    - Has a type, name or number.  Basically is "tagged" or categorized
+- Unlabeled
+    - Raw, unprocessed info with no meaning, eg. Audio logs, text with no categorization
+    - Algorithms built to discover the patterns as there are no labels. 
+
+## Other Concepts
+
+- **Reinforcement Learning**:
+    - Learning through interaction and feedback
+    - 
