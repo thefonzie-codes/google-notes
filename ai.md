@@ -172,13 +172,13 @@ eg. **Travel Booking app**
 
                            **AGENTS**
 
-Recommend flights and hotels ----
-                                  \
-                                   \
-Relevant activities ------------------- Info presented in interface
-                                   /
-                                  /
-Activities and attractions ------
+    Recommend flights and hotels ----
+                                      \
+                                       \
+    Relevant activities ------------------- Info presented in interface
+                                       /
+                                      /
+    Activities and attractions ------
 
 #### Types of Agents
 
@@ -248,3 +248,6 @@ Activities and attractions ------
         - Quick read and write speeds for faster training
     - Networking
         - High bandwidth and low latency
+
+- **Edge Computing**
+
