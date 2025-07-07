@@ -249,5 +249,60 @@ eg. **Travel Booking app**
     - Networking
         - High bandwidth and low latency
 
-- **Edge Computing**
+### Edge Computing
+    - PriUvacy
+    - Speed
+    - Offline Access
 
+    - Works well for smaller tasks
+
+### Project Resources
+    - People
+        - Devs
+        - Execs
+        - AI Practitioners
+    - Cost
+        - Train
+        - Deploy
+        - Use
+
+        - Pricing models
+            - Usage
+            - License
+            - Subscription
+            - Free
+        - Pricing Metrics for using models (How they charge, if by use)
+            - Tokens
+            - Characters
+            - Requests
+            - Compute time
+        - Factors that affect cost
+            - Model size and complexity
+            - Context window
+            - Features
+            - Deployment
+    - Time
+
+### Solution Needs
+    - Scale
+    - Customization
+        - Start with existing models
+        - Identify needs
+        - Consider data specificity aka domains like law or medicine
+        - Task complexity
+    - UI/UX
+    - Privacy
+        - Data Security
+        - Compliance
+    - Others
+        - How specialized?
+        - Latency
+        - Connectivity
+        - Accuracy
+        - Explainability
+    - Maintenance
+        - Model monitoring and retraining
+        - Data updates
+        - Software updates and bug fixes
+        - Hardware and infra
+        - Security and compliance
